@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eneaceolini.mymaterialdesignapp.MySettings">
+    <include
+        layout="@layout/tool_bar_invisible"
+        android:id="@+id/tool_bar_invisible"
+        ></include>
+
+    <com.github.ksoichiro.android.observablescrollview.ObservableListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</RelativeLayout>

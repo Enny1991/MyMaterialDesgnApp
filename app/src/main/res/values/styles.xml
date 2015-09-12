@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+                <item name="actionModeStyle">@style/MyActionMode</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+
+
+    <style name="MyActionMode" parent="Widget.AppCompat.ActionMode">
+        <!--- changes background of the container  -->
+        <item name="background">@color/ColorPrimary</item>
+        <!--- changes the action mode background when using actionbar is splitted -->
+
+
+    </style>
+
+    <style name="Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+                <item name="actionModeStyle">@style/MyActionMode</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Transparent2" parent="Theme.AppCompat.Light.NoActionBar">
+                <item name="actionModeStyle">@style/MyActionMode</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Settings" parent="Theme.AppCompat.Light.NoActionBar">
+                
+        <item name="android:windowActionModeOverlay">true</item>
+
+    </style>
+
+    <style name="PhotoGridLayout">
+        <item name="android:drawSelectorOnTop">true</item>
+        <item name="android:listSelector">@drawable/photogrid_list_selector</item>
+    </style>
+</resources>

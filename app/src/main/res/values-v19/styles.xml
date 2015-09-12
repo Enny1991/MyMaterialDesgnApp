@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+                <item name="android:windowTranslucentStatus">true</item>
+        <item name="actionModeStyle">@style/MyActionMode</item>
+        <item name="android:windowActionModeOverlay">true</item>
+
+    </style>
+
+
+    <style name="MyActionMode" parent="">
+        <!--- changes background of the container  -->
+        <item name="background">@color/ColorPrimary</item>
+        <!--- changes the action mode background when using actionbar is splitted -->
+
+
+    </style>
+
+</resources>

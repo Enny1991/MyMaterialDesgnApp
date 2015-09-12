@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/ColorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="actionModeStyle">@style/MyActionMode</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name = "android:windowAllowReturnTransitionOverlap" >true</item >
+
+        <!--- changes left icon of that is used to close the action mode -->
+    </style>
+
+    <style name="MyActionMode" parent="">
+    <!--- changes background of the container  -->
+    <item name="background">@color/ColorPrimary</item>
+    <!--- changes the action mode background when using actionbar is splitted -->
+
+    </style>
+
+    <style name="Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+                <item name="actionModeStyle">@style/MyActionMode</item>
+        <item name="android:colorPrimary">@color/ColorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Settings" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/ColorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/ColorPrimaryDark</item>
+                
+        <item name="android:windowActionModeOverlay">true</item>
+
+    </style>
+
+</resources>
